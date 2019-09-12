@@ -7,6 +7,12 @@ header {
 	padding: 20px;
 }
 
+footer {
+	background-color: lightgrey;
+	text-align: center;
+	padding: 20px;
+}
+
 #navigation li{
 	list-style: none;
 	display: inline-block;
@@ -28,8 +34,9 @@ header {
 }
 
 #columnwrapper {
-	width: 100%
-
+	display:flex;
+	justify-content:space-between;
+	margin-bottom: 5px;
 }
 
 	
@@ -38,6 +45,5 @@ header {
 	background-color: lightgrey;
 	padding: 20px 0px;
 	width: 33%;
-	display: inline-block;
 
 }
