@@ -1,0 +1,43 @@
+body {
+	font-family: sans-serif;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+#navigation li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+#navigation {
+	text-align: center;
+	background-color: lightgrey;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+#featuresection {
+	background-color: lightgrey;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#columnwrapper {
+	width: 100%
+	margin: 0;
+	display: table;
+}
+
+.column {
+	text-align: center;
+	background-color: lightgrey;
+	padding: 10px;
+	width: calc(33%-30px);
+	display: table-cell;
+	float: left;
+}
