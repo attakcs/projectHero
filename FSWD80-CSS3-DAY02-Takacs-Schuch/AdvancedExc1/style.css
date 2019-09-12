@@ -16,28 +16,28 @@ header {
 #navigation {
 	text-align: center;
 	background-color: lightgrey;
-	padding: 10px;
+	padding: 20px;
 	margin-bottom: 5px;
 }
 
 #featuresection {
 	background-color: lightgrey;
-	padding: 10px;
+	padding: 20px;
 	text-align: center;
 	margin-bottom: 5px;
 }
 
 #columnwrapper {
 	width: 100%
-	margin: 0;
-	display: table;
+
 }
 
+	
 .column {
 	text-align: center;
 	background-color: lightgrey;
-	padding: 10px;
-	width: calc(33%-30px);
-	display: table-cell;
-	float: left;
+	padding: 20px 0px;
+	width: 33%;
+	display: inline-block;
+
 }
